@@ -105,6 +105,10 @@ img {
     gap: 10px;
 }
 
+.piclayout img:nth-child(1), img:nth-child(4) {
+    border: 6px double rgb(137, 137, 255);
+}
+
 .flex-layout {
     display: inline-flex;
     flex-wrap: wrap;
@@ -118,4 +122,15 @@ img {
 .flex-layout img {
     width: 30%;
     margin: 20px;
+}
+
+#sktm {
+    position: absolute;
+    left: -200px;
+    width: 15px;
+}
+
+#sktm:focus {
+    position: relative;
+    left: 0px;
 }
